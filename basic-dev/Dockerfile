@@ -22,4 +22,4 @@ RUN apt update && \
 
 RUN chsh -s /usr/bin/fish root
 
-CMD ["/usr/bin/fish"]
+CMD ["tail", "-f", "/dev/null"]
